@@ -61,4 +61,12 @@ Ce projet implémente un **pipeline de streaming** capable d'ingérer un flux co
 
 ### Pipeline
 
-[text](../../../../../..)
+### Pipeline
+
+```mermaid
+flowchart LR
+    A["Producteur Python<br>(simulateur ou API X)"] -->|publish| B[("Kafka broker<br>topic: tweets_raw")]
+    B -->|readStream| C["Spark Structured Streaming<br>local[*]"]
+    C -->|NLP + nettoyage| C
+    C -->|foreachBatch| D[("MongoDB<br>analyzed_tweets")]
+    D -->|find| E["Streamlit Dashboard"]

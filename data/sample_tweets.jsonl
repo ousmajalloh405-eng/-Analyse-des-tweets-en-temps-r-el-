@@ -1,0 +1,5 @@
+{"id":"demo-0001","text":"Spark est génial pour le streaming #data #spark","created_at":"2024-01-01T10:00:00+00:00","author_id":"user_1","lang":"fr","hashtags":["#data","#spark"],"source":"simulator"}
+{"id":"demo-0002","text":"Kafka est correct mais la config est lente #kafka","created_at":"2024-01-01T10:00:05+00:00","author_id":"user_2","lang":"fr","hashtags":["#kafka"],"source":"simulator"}
+{"id":"demo-0003","text":"Expérience décevante avec MongoDB, c'est nul #bigdata","created_at":"2024-01-01T10:00:10+00:00","author_id":"user_3","lang":"fr","hashtags":["#bigdata"],"source":"simulator"}
+{"id":"demo-0004","text":"Streamlit rend les dashboards rapides et génials #python","created_at":"2024-01-01T10:00:15+00:00","author_id":"user_4","lang":"fr","hashtags":["#python"],"source":"simulator"}
+{"id":"demo-0005","text":"TextBlob sur du français, franchement correct #nlp","created_at":"2024-01-01T10:00:20+00:00","author_id":"user_5","lang":"fr","hashtags":["#nlp"],"source":"simulator"}
